@@ -1,0 +1,79 @@
+---
+sidebar_position: 1
+slug: /
+---
+
+# Fulfilment Connector Intro
+
+The main purpose of this system is to **collect and aggregate** orders from our **Order Management Systems (OMS)** such as Shopify and Amazon and **schedule fulfilments (delivery)** with their corresponding **Third Party Logistics (3PL)** partners e.g. Aramex and Flextock. We've created a data model - which encompasses **Orders**, **Customers**, etc... - for our operations, which is stored in our internal database - currently MongoDB. This allows us to perform other stuff such as **post sale feedback** and **creating/sending personalised discount codes**.
+
+## Getting Started
+
+### Data models
+- [Order](data-models/order-data-model)
+- [Customer](data-models/customer-data-model)
+- [Product](data-models/product-data-model)
+- [Address](data-models/Address-data-model)
+### Order Management Systems
+- [Shopify](OMS/shopify-OMS)
+### Third Party Logistics
+- [Aramex](pl3/aramex-pl3)
+- [Flextock](pl3/flextock-pl3)
+- [Farfill](pl3/Farfill-pl3)
+### API Wrappers
+- [Rebrandly](wrappers/rebrandly) - URL shortener
+- [SmsClient](wrappers/smsClient) - Send SMS to customers
+- [MailSender](wrappers/mailSender) - Send emails to customers
+
+[//]: # (### What you'll need)
+
+[//]: # ()
+[//]: # (- [Node.js]&#40;https://nodejs.org/en/download/&#41; version 16.14 or above:)
+
+[//]: # (  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.)
+
+[//]: # ()
+[//]: # (## Generate a new site)
+
+[//]: # ()
+[//]: # (Generate a new Docusaurus site using the **classic template**.)
+
+[//]: # ()
+[//]: # (The classic template will automatically be added to your project after you run the command:)
+
+[//]: # ()
+[//]: # (```bash)
+
+[//]: # (npm init docusaurus@latest my-website classic)
+
+[//]: # (```)
+
+[//]: # ()
+[//]: # (You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.)
+
+[//]: # ()
+[//]: # (The command also installs all necessary dependencies you need to run Docusaurus.)
+
+[//]: # ()
+[//]: # (## Start your site)
+
+[//]: # ()
+[//]: # (Run the development server:)
+
+[//]: # ()
+[//]: # (```bash)
+
+[//]: # (cd my-website)
+
+[//]: # (npm run start)
+
+[//]: # (```)
+
+[//]: # ()
+[//]: # (The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.)
+
+[//]: # ()
+[//]: # (The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.)
+
+[//]: # ()
+[//]: # (Open `docs/intro.md` &#40;this page&#41; and edit some lines: the site **reloads automatically** and displays your changes.)
