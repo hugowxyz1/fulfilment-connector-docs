@@ -1,0 +1,7 @@
+{
+  "label":  "Config",
+  "link": {
+    "type": "generated-index",
+    "description": "Documentation for the config files"
+  }
+}
